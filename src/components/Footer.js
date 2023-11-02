@@ -4,8 +4,7 @@ import { EnvelopeFill, Facebook, Instagram, Pinterest, TelephoneFill, Twitter } 
 export const Footer = () => {
     return(
         <Stack>
-            <div className="border  rounded-top-3 d-flex flex-col justify-content-evenly">
-                
+            <div className="border flex-wrap rounded-top-3 d-flex flex-col justify-content-evenly">
                 <div >
                     <h2>Contact Us</h2>
                     <Stack>
