@@ -1,28 +1,27 @@
-import { Stack } from "react-bootstrap"
+import { Col, Row, Stack } from "react-bootstrap"
 
 export const Experience = () => {
     return(
-        <Stack className='border rounded p-2'>
+        <Stack>
             <h2 className="text-center">Experience</h2>
-            <Stack gap={4}>
-                    <div className="border rounded mx-5 px-5">
-                        <h3>Front-End</h3>
+                <Row className="gap-4">
+                    <Col className="border rounded mx-5 px-5">
+                        <h3 className="text-center">Front-End</h3>
                         <ul>
                             <li>HTML<p>Experience</p></li>
                             <li>CSS<p>Experience</p></li>
                             <li>JavaScript<p>Intermediate</p></li>
                         </ul>
-                    </div>
-                    <div className="border rounded mx-5 px-5">
-                        <h3>Back-End</h3>
+                    </Col>
+                    <Col className="border rounded mx-5 px-5">
+                        <h3 className="text-center">Back-End</h3>
                         <ul>
                             <li>Node JS<p>Beginner</p></li>
                             <li>Git<p>Beginner</p></li>
                             <li>React<p>Intermediate</p></li>
                         </ul>
-                    </div>
-                
-            </Stack>
+                    </Col>
+                </Row>
         </Stack>
     )
 }

@@ -2,7 +2,7 @@ import { Stack } from "react-bootstrap"
 
 export const Project = () => {
     return(
-        <Stack>
+        <Stack className="border">
             Project
         </Stack>
     )
